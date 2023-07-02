@@ -16,8 +16,6 @@ class nospace
  System.out.println("___");
  for(int i=0;i<n;i++)
   b[i]=Integer.parseInt(d.readLine());
- //Arrays.sort(a);
- //Arrays.sort(b); 
  for(int i=0;i<m;i++)
   for(int j=0;j<=i&&j<n;j++)
     if(b[j]<a[i])
